@@ -1,5 +1,4 @@
 from django.http import HttpResponse
-
 from django.shortcuts import render
 
 def saludo(request):
@@ -7,3 +6,5 @@ def saludo(request):
 
 def plantilla(request):
     return render(request, 'plantilla.html', context={})
+
+ 
